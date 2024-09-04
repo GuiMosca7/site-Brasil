@@ -1,24 +1,51 @@
-body{
-    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/6208426-em-branco-espaco-brasil-bandeira-fundo-gratis-vetor.jpg);
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpapers.com/images/featured/neymar-4k-77f7mopjv7gszus5.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1450px;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center; 
+header {
+    background-color: #050e88;
+    color: rgb(251, 255, 2);
+    padding: 10px 0;
+    text-align: center;
 }
 
-nav a{
-    color: rgb(255, 255, 255);
+nav {
+    background-color: rgb(251, 255, 2);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
+main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div{
+    height: 30px;
+    color: white
+}
+
+div h2{
+    height: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
 }
